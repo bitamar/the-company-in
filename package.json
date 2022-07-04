@@ -1,0 +1,40 @@
+{
+  "name": "the-company-in",
+  "version": "9001",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "server:dev": "nodemon server.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/react": "17",
+    "@types/react-dom": "17",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18",
+    "prettier": "^2.6.2",
+    "typescript": "^4.7.4",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router-dom": "^6.3.0"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
+}
